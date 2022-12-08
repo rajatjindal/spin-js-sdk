@@ -6,6 +6,6 @@ export const handleRequest: HandleRequest = async function(request: HttpRequest)
     return {
       status: 200,
         headers: { "foo": "bar" },
-      body: encoder.encode("Hello from TS-SDK").buffer
+      body: encoder.encode("Hello from rjindal TS-SDK").buffer
     }
 }
